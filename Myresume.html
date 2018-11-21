@@ -19,11 +19,22 @@
 		</nav>
 
 		<!--the actual resume-->
+		<nav class="floating-menu">
+    		<h3>Sections</h3>
+    		<a href="#inf">the head of my resume</a>
+    		<a href="#educat">Education</a>
+    		<a href="#cors">Courses and Certifications</a>
+    		<a href="#pro">Projects</a>
+    		<a href="#pro1">Professional Experience</a>
+    		<a href="#tools">Tools & Technologies</a>
+    		<a href="#down">Download the Resume</a>
+  		</nav>
+		
 		<div class="cvbody">
 			<div class="row cvheder">
 				<div class="col-4"><img src="pic\profile.jpg" width="90%"></div>
 				<div class="col-8">
-					<div class="basicinfo">
+					<div id="inf" class="basicinfo">
 						<br>
 						<p><span class="Info">name: </span> Abdullah Ahmed Yaquot</p>
 						<p><span class="Info">Education: </span>Bachelor degree in Electronics and Communication Engineering.</p>
@@ -35,7 +46,7 @@
 			<br>
 			<div class="row">
 				<div class="col-4">
-					<h4>Education </h4>
+					<h4 id="educat">Education </h4>
 				</div>
 				<div class="col-8">
 					<p class="collage">Arab Academy for Science, Technology & Maritime Transport,<span class="smalltext"> Alexandria, Egypt</span><br><ul>
@@ -47,7 +58,7 @@
 			<br>
 			<div class="row">
 				<div class="col-4">
-					<h4>Courses and Certifications </h4>
+					<h4 id="cors">Courses and Certifications </h4>
 				</div>
 				<div class="col-8">
 					<p>- <b>Java SE 8: </b>Fundamentals, OOP, GUI, from New Horizons computer center</p>
@@ -59,7 +70,7 @@
 			<br>
 			<div class="row">
 				<div class="col-4">
-					<h4>Projects </h4>
+					<h4 id="pro">Projects </h4>
 				</div>
 				<div class="col-8">
 					<p><b>Textile Defect Recognition: </b>An automatic textile defect recognition system tests a database of images for the textile. Several preprocessing techniques for image enhancement, feature extraction and classification for the defects like (edge detection, DCT, DWT, Artificial Neural Networks, others). A hardware implementation using Arduino UNO. Results of the classifiers are used as an input and the output is shown on a screen.</p>
@@ -70,7 +81,7 @@
 			<br>
 			<div class="row">
 				<div class="col-4">
-					<h4>Professional Experience</h4>
+					<h4 id="Pro1">Professional Experience</h4>
 				</div>
 				<div class="col-8">
 					<p><b>Al Sahara TV Channel, </b>KSA, Riyadh 2013 - 2015<br><ul>
@@ -87,7 +98,7 @@
 			<br>
 			<div class="row">
 				<div class="col-4">
-					<h4>Tools & Technologies</h4>
+					<h4 id="tools">Tools & Technologies</h4>
 				</div>
 				<div class="col-8">
 					
@@ -104,6 +115,8 @@
 					
 				</div>
 			</div>
+			
+ 
 			<br>
 			<div class="stateofcv">
 				<div class="row">
@@ -116,9 +129,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="cvdownload">
+		<div id="down" class="cvdownload">
 			<a href="files\abdullas-cvsnewst.pdf" download><img src="pic\pdfdown.jpg" alt="Download My CV"></a>
 		</div>
+
 
 		<!--the footer-->
 		<footer class="main-footer">
