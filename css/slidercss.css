@@ -1,0 +1,9 @@
+.movebtnl, .movebtnr {
+	
+	background-color: black;
+	color: white;
+	border: none;
+	position: center;
+	overflow-wrap: initial;
+	margin-left: 230px;
+}
